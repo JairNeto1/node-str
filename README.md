@@ -19,3 +19,43 @@ _*Crud*_
 _*Mongo*_
 
 > Status: Prudution 🔨🔨🔨
+
+---
+
+ <footer class="container">
+        <div class="row text-center" id="footer-elementos">
+            <div class="col-lg-3 col-12">
+                <div>
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div style="padding: 15px 0 15px 0">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div>
+                    <h4>Siga</h4>
+                    <div class="links-redes-sociais">
+                        <a href="><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/JairMonteiro/" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/jair-monteiro-2a4a55aa/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;margin-bottom: 10px;">
+            <div class="col-12">
+                <small>© 2020 Jair Neto. All rights reserved <a href="https://www.linkedin.com/in/jair-monteiro-2a4a55aa/"
+                        target="_blank">Jair Neto</a>.</small>
+                <small>© 2020 XXXXX. All rights reserved <a href="https://www.growdev.com.br"
+                        target="_blank">XXXXXX</a>.</small>
+                <small>Powered by <a href="https://www.umbler.com/br/seja-bem-vindo?a=jmnv51zk"
+                        target="_blank">XXXXX</a></small>
+            </div>
+        </div>
+    </footer>
