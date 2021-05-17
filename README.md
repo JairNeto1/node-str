@@ -50,12 +50,12 @@ _*Mongo*_
         </div>
         <div class="row" style="text-align: center;margin-bottom: 10px;">
             <div class="col-12">
-                <small>© 2020 Jair Neto. All rights reserved <a href="https://www.linkedin.com/in/jair-monteiro-2a4a55aa/"
-                        target="_blank">Jair Neto</a>.</small>
-                <small>© 2020 XXXXX. All rights reserved <a href="https://www.growdev.com.br"
-                        target="_blank">XXXXXX</a>.</small>
-                <small>Powered by <a href="https://www.umbler.com/br/seja-bem-vindo?a=jmnv51zk"
-                        target="_blank">XXXXX</a></small>
+                <small>© 2021 Jair Neto All rights reserved <a href="https://www.linkedin.com/in/jair-monteiro-2a4a55aa/"
+                        target="_blank">Jair Neto</a></small>
+                <small><a href=""
+                     `   target="_blank"></a>.</small>
+                <small>Powered by <a href="https://balta.io/player"
+                        target="_blank">balta.io</a></small>
             </div>
         </div>
     </footer>
