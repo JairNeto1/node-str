@@ -1,6 +1,6 @@
 "use strict";
 
-const module = require("mongoose");
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const schema = new Schema({
@@ -21,9 +21,9 @@ const schema = new Schema({
     required: true,
   },
   price: {
-      type: Number,
-      required: true,
-  }
+    type: Number,
+    required: true,
+  },
   active: {
     type: Boolean,
     required: true,

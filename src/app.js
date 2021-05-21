@@ -12,6 +12,9 @@ mongoose.connect(
   "mongodb+srv://admin:1234@cluster0.4nvhz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 );
 
+//Carregar os Models
+const Product = require("./models/product");
+
 // carrega as rotas
 const indexRoute = require("./routes/index-route");
 const productRoute = require("./routes/product-route");

@@ -1,7 +1,39 @@
 "use strict";
 
+const mongoose = require("mongoose");
+const Product = mongoose.model("Product");
+
+exports.get = (req, res, next) => {
+  product
+    .find(
+      {
+        active: true,
+      },
+      "title price slug"
+    )
+    .then((data) => {
+      res.status(200).send(data);
+    })
+    .catch((e) => {
+      res.status(400).send(e);
+    });
+};
+
 exports.post = (req, resp, next) => {
-  res.status(201).send(req.body);
+  var product = new Product(req.body);
+  product
+    .save()
+    .then((x) => {
+      res.status(201).send({
+        message: "Produto Cadastrado com sucesso!",
+      });
+    })
+    .catch((e) => {
+      res.status(400).send({
+        message: "Falha ao Cadastrar o Produto",
+        data: e,
+      });
+    });
 };
 
 exports.put = (req, resp, next) => {
